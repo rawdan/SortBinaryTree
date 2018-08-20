@@ -1,6 +1,7 @@
 require 'spec_helper'
 require_relative '../bin/node'
 require_relative '../bin/empty_node'
+require_relative '../bin/binary_tree'
 
 RSpec.describe BinaryTree::Node do
 

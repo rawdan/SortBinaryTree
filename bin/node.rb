@@ -2,13 +2,6 @@ require_relative '../bin/empty_node'
 
 module BinaryTree
 
-  def self.from_array(array)
-    Node.new(array.first).tap do |tree|
-      array.each {|value| tree.push value }
-    end
-  end
-
-
   class Node
 
     attr_reader :value
